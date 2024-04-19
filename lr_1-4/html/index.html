@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erik Sokolovski</title>
+    <link href="../style/style.css" rel="stylesheet">
+</head>
+<body>
+    <header id="">
+        <nav class="header__nav">
+            <img class="logo__img" src="../source/logo.jpg" alt="logo">
+            <a class="logo-text" href="index.html">My site</a>
+            <ul class="header__nav-buttons">
+                <li><a href="#aboutblock">Немного о себе</a></li>
+                <li><a href="#skillsblock">Hard skills</a></li>
+                <li><a href="#">text</a></li>
+                <li><a href="#">text</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <div id="top">
+            <h1>Резюме студента</h1>
+        </div>
+        <div class="flex__div">
+            <img class="main__photo" src="../source/logo.jpg" alt="я">
+            <div class="about__block" id="aboutblock">
+                <h2>Немного о себе</h2>
+                <p class="about__text">
+                    <b>Личные данные:</b><br>
+                    <u>ФИО: Соколовский Эрик Викторович</u><br>
+                    Дата рождения: 09.05.2006<br>
+                    Пол: МУЖЧИНА<br>
+                    Место проживания: г.Гродно ул. Кабяка<br>
+                    <b>Контактная информация:</b><br>
+                    Телефон: +375(33)383-79-47<br>
+                    E-mail: <i>eriksokol2@gmail.com</i><br>
+                    <b>Желаемая должность:</b> back-end разработчик<br>
+                    <b>Желаемый уровень дохода:</b> 2 тыс. рублей<br>
+                </p>
+            </div>
+        </div>
+        <div class="flex__div">
+            <div class="skills__block" id="skillsblock">
+                <h2>Hard skills</h2>
+                <p>
+                    <ul class = "marker">
+                        <li>Качественное знание языка php</li>
+                        <li>Умение работать с <a class="big" href="https://laravel.com">laravel</a></li>
+                        <li>Работа с БД и СУБД</li>
+                        <li>Базовые знания верстки и других ЯП</li>
+                        <li>Крутой во всем</li>
+                </p>
+            </div>
+        </div>
+        <div class="flex__div">
+            <div class="audio-video-block">
+                <h2>Аудио и видео-контент</h2>
+                <ul>
+                    <li>Мой любимый исполнитель:</li>
+                    <li>
+                        <audio src="../source/1.mp3" controls></audio>
+                    </li>
+                    <li>Мой любимый фильм</li>
+                    <li><video src="../source/1.mp4" controls></video></li>
+                    <li>
+                        Любимая книга:
+                    </li>
+                    <li>
+                        А.Кристи &#171;Большая четверка&#187;
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex__div">
+            <div class="table-block">
+                <h2>Таблица</h2>
+                <table border="1">
+                    <tr>
+                        <th>Заголовок 1</th>
+                        <th>Заголовок 2</th>
+                        <th>Заголовок 3</th>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 1</td>
+                        <td rowspan="2" colspan="2">Ячейка 2 (объединение)</td>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 3</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="form-block">
+            <h2>Форма</h2>
+            <form>
+                <label for="name">Имя:</label><br>
+                <input type="text"><br>
+                <label for="email">Фамилия:</label><br>
+                <input type="text"><br><br>
+                <input type="submit" value="Отправить">
+            </form>
+        </div>
+        <div class="semantic-tags-block">
+            <h2>Семантические теги</h2>
+            <article>
+                <h3>Заголовок статьи</h3>
+                <p>Содержание статьи...</p>
+            </article>
+            <section>
+                <h3>Раздел</h3>
+                <p>Содержание раздела...</p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
