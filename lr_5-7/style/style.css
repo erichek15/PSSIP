@@ -1,0 +1,45 @@
+div{
+    background-color: beige;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    outline: 1px solid black;
+    outline-offset: -1px;
+    border-right: 0px;
+}
+body{
+    margin: 0px;
+}
+.max-width{
+    width: 1920px;
+    height: 100px;
+}
+.block{
+    background-color: white;
+    outline: 0px;
+    display: flex;
+}
+.half-width-left{
+    width: 960px;
+    height: 150px;
+}
+.half-width-right{
+    width: 960px;
+    height: 150px;
+}
+.big-height-left{
+    height:419px;
+    width: 960px;
+}
+.mini-block-left{
+    height: 150px;
+    width: 480px;
+}
+.mini-block-right{
+    height: 150px;
+    width: 480px;
+}
+.medium-block-right{
+    height: 269px;
+    width: 960px;
+}

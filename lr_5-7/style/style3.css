@@ -1,0 +1,139 @@
+body {
+    margin: 0px;
+}
+@media (min-width: 900px){
+    .max-width {
+        width: 100%;
+        height: 10vh; /* 10% от высоты экрана */
+        background-color: beige;
+        text-align: center;
+        outline: 1px solid black;
+    }
+    
+    .block,.block-sec {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Две колонки, каждая равна 1fr */
+        width: 100%;
+    }
+
+    .half-width-left,
+    .half-width-right,
+    .big-height-left,
+    .mini-block-left,
+    .mini-block-right,
+    .medium-block-right {
+        height: 20vh; /* 20% от высоты экрана */
+        background-color: beige;
+        text-align: center;
+        outline: 1px solid black;
+    }
+    
+    .big-height-left {
+        width: 100%; /* 50% от ширины экрана */
+        height: 40vh; /* 40% от высоты экрана */
+    }
+    
+    .medium-block-right {
+        width: 100%; /* 50% от ширины экрана */
+        height: 25vh; /* 25% от высоты экрана */
+    }
+
+    .mini-block-left,
+    .mini-block-right {
+        width: 100%; /* 25% от ширины экрана */
+        height: 15vh; /* 15% от высоты экрана */
+    }
+}
+@media (max-width:900px) and  (min-width: 600px){
+    .max-width {
+        width: 100%;
+        height: 10vh; /* 10% от высоты экрана */
+        background-color: beige;
+        text-align: center;
+        outline: 1px solid black;
+    }
+    
+    .block {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .half-width-left,
+    .half-width-right,
+    .big-height-left,
+    .mini-block-left,
+    .mini-block-right,
+    .medium-block-right {
+        height: 15vh; /* 20% от высоты экрана */
+        background-color: beige;
+        text-align: center;
+        outline: 1px solid black;
+    }
+    
+    .big-height-left {
+        width: 100%; /* 50% от ширины экрана */
+        height: 30vh; /* 40% от высоты экрана */
+    }
+    
+    .medium-block-right {
+        width: 100%; /* 50% от ширины экрана */
+        height: 20vh; /* 25% от высоты экрана */
+    }
+    
+    .block-sec {
+        display: flex;
+    }
+    
+    .mini-block-left,
+    .mini-block-right {
+        width: 100%; /* 25% от ширины экрана */
+        height: 15vh; /* 15% от высоты экрана */
+    }
+}
+@media (max-width: 600px){
+    .max-width {
+        width: 100%;
+        height: 10vh; /* 10% от высоты экрана */
+        background-color: beige;
+        text-align: center;
+        outline: 1px solid black;
+    }
+    
+    .block {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .half-width-left,
+    .half-width-right,
+    .big-height-left,
+    .mini-block-left,
+    .mini-block-right,
+    .medium-block-right {
+        height: 10vh; /* 20% от высоты экрана */
+        background-color: beige;
+        text-align: center;
+        outline: 1px solid black;
+    }
+    
+    .big-height-left {
+        width: 100%; /* 50% от ширины экрана */
+        height: 25vh; /* 40% от высоты экрана */
+    }
+    .block-sec{
+        display: none;
+    }
+    .medium-block-right {
+        width: 100%; /* 50% от ширины экрана */
+        height: 20vh; /* 25% от высоты экрана */
+    }
+    
+    .mini-block-left,
+    .mini-block-right {
+        width: 100%; /* 25% от ширины экрана */
+        height: 10vh; /* 15% от высоты экрана */
+    }
+}
+
