@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erik</title>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        function WhileClick(){
+            let x = 0
+            while(x!=10){
+                x+=1;
+                console.log(x);
+            }
+        }
+    </script>
+</head>
+<body>
+    <button id = "ifButton" onclick="IfClick(this.id)">If</button>
+    <button id = "switchButton" onclick="SwitchClick(this.id)">Switch</button>
+    <button onclick="ForClick()">For</button>
+    <button onclick="WhileClick()">While</button>
+    <button onclick="DoWhileClick()">Do..WHile</button>
+    <button onclick="confirm('Круто?')">Confirm</button>
+    <a href="JavaScript:alert('FFFFFF')">Alert</a>
+    <button onclick="prompt(ForPromt())">Prompt</button>
+</body>
+</html>
