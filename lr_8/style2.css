@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.product-card {
+    width: 90%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.promo {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+}
+
+.top-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+}
+
+.left-icons,
+.right-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product-image {
+    flex: 1;
+    text-align: center;
+    margin-right: -50px;
+    margin-top: -30px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.credit-options {
+    flex: 0;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.credit-options span {
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+.product-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-info .brand {
+    color: rgb(172, 168, 168);
+}
+
+.product-info .name {
+    color: orange;
+    display: block;
+    margin-top: 5px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 10px 0;
+}
+
+.discounted-price {
+    color: red;
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 800;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: gray;
+    font-weight: 600;
+}
+
+.bonus {
+    text-align: center;
+    font-size: 12px;
+}
+
+.bonus small {
+    display: block;
+    margin-top: 5px;
+    color: gray;
+}
+
+.timer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+.back{
+    font-size: 16px;
+    font-weight: 700;
+}
+.bonus__card{
+    border-bottom: 2px dotted black;
+}
+.credit{
+    text-align: end;
+    color:rgb(207, 56, 207);
+    font-weight: 700;
+    font-size: 24px;
+}
+.num{
+    font-size: 30px;
+    font-weight: 900;
+}
+.rassr{
+    text-align: end;
+    color: red;
+    font-weight: 700;
+    font-size: 24px;
+}
+.halva{
+    text-align: end;
+    color:brown;
+    font-weight: 700;
+    font-size: 24px;
+}
+.dash__credit{
+    border-bottom: 2px dotted rgb(207, 56, 207);
+}
+.dash__halva{
+    border-bottom: 2px dotted brown;
+}
+.dash__rassr{
+    border-bottom: 2px dotted red;
+}
