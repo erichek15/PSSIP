@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erikk</title>
+    <script src="script1.js"></script>
+    <script>
+        function DateClick(){
+            let now = new Date();
+            alert(now);
+        }
+    </script>
+</head>
+<body>
+    <script>
+        let n = 23 +5;
+        while(n != 0){
+            console.log("Сокловский Эрик");
+            n-=1;
+        }
+
+        let arr = [1,4,5,7,22,6,2];
+        let max = 0;
+        let maxIndex = 0;
+        
+        console.log("Исходный массив:");
+        console.log(arr);
+        
+        for(let i = 0; i < 7; i++){
+            if(arr[i] > max){
+                max = arr[i];
+                maxIndex = i;
+            }
+        }
+
+        let source = arr[arr.length-1];
+        arr[arr.length-1] = arr[maxIndex];
+        arr[maxIndex] = source;
+
+        console.log("Итоговый массив:");
+        console.log(arr);
+
+    </script>
+    <button onClick="DateClick()">Показать год</button>
+    <button onClick="console.log(MathClick())">Формула</button>
+    <button onClick="Str()">Строка</button>
+</body>
+</html>
